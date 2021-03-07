@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Consultorio Odontologico enfocado a implantes y rehabilitacion bucal">
+    <meta name="keywords" content="html, bootstrap, js, Odontologia, Implantes, rehabilitacion, salud, bucal, higiene">
+    <meta name="author" content="">
+
+    <title>Contactanos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../estilos/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../estilos/css/estilos.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">Odontologia Integral: Implantes y Rehabilitacion Dental</span>
+      <span class="site-heading-lower">Consultorio Odontologico <br> Pablo O. Belletti</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Consultorio Odontologico <br> Pablo O. Belletti</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="../index.html">Inicio
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="tratamientos.html">Tratamientos</a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="contacto.html">Contactanos</a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="galeria.html">Galeria</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="cta-inner text-center rounded">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-lower">Contactanos</span>
+                </h2>
+                <form action="mailto:codonto.pob@gmail.com" enctype="text/plain">
+                  <label for="nombre_apellido" class="subtitulo-form">Nombre</label>
+                  <br>
+                  <input type="text" name="nombre_apellido" required/>
+                  <br>
+                  <br>
+                  <label for="telefono" class="subtitulo-form">telefono</label>
+                  <br>
+                  <input type="tel" name="telefono"/>
+                  <br>
+                  <br>
+                  <label for="mail" class="subtitulo-form">Mail</label>
+                  <br>
+                  <input type="email" name="mail" id="mail" required>
+                  <br>
+                  <br>
+                  <label for="fecha_de_nac" class="subtitulo-form">Fecha de nacimiento</label>
+                  <br>
+                  <input type="date" name="fecha_de_nac" required/>
+                  <br>
+                  <br>
+                  <label for="obrasocial" class="subtitulo-form">obrasocial o mutual</label>
+                  <br>
+                  <select name="obrasocial" id="" required>
+                      <option value="om1">ob/mu 1</option>
+                      <option value="om2">ob/mu 2</option>
+                      <option value="om3">ob/mu 3</option>
+                      <option value="om4">ob/mu 4</option>
+                  </select>
+                  <br>
+                  <br>
+                  <div>
+                      <p class="subtitulo-form">¿Padeces algunos de los <br> siguientes tipos de enfermedades?</p>
+                      <label for="ef_1">Enfermedades cardiovasculares</label>
+                      <input type="checkbox" name="ef_1" id="Enfermedades" value="1">
+                      <br>
+                      <label for="ef_2">Enfermedades respiratorias</label>
+                      <input type="checkbox" name="ef_2" id="Enfermedades" value="1">
+                      <br>
+                      <label for="ef_3">Cáncer</label>
+                      <input type="checkbox" name="ef_3" id="Enfermedades" value="1">
+                      <br>
+                      <label for="ef_4">Enfermedades neurológicas</label>
+                      <input type="checkbox" name="ef_4" id="Enfermedades" value="1">
+                      <br>
+                      <label for="ef_5">Enfermedades infecciosas</label>
+                      <input type="checkbox" name="ef_5" id="Enfermedades" value="1">
+                      <br>
+                      <label for="otro">otro</label>
+                      <input type="checkbox" name="otro" id="alergia" value="1">
+                      <br>
+                      <br>
+                      <label for="otro_1">aclaranos que otra Enfermedad padeces</label>
+                      <br>
+                      <textarea name="otro_1" id="" cols="30" rows="5"></textarea>
+                  </div>
+                  <br>
+                  <br>
+                  <label for="consulta" class="subtitulo-form">Dejanos tu consulta.</label>
+                  <br>
+                  <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                  <br>
+                  <label for="turno" class="subtitulo-form">¿Estas interesado en pedir un turno?</label>
+                  <br>
+                  <div class="respuesta">
+                      <div>Si</div>
+                      <input type="radio" name="turno" value="si"/>
+                      <div>No</div>
+                      <input type="radio" name="turno" id="" value="no">
+                  </div>
+                  <br>
+                  <br>
+                  <input type="submit" value="enviar">
+                  <input type="reset" value="reiniciar">
+              </form>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-upper">Metodos de contacto</span>
+                <span class="section-heading-lower">Horarios de atencion</span>
+              </h2>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Domingo
+                  <span class="ml-auto">Cerrado</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Lunes
+                  <span class="ml-auto">8:30hs a 13:00 PM <br> 16:00hs a 20:00hs</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Martes
+                  <span class="ml-auto">8:30hs a 13:00 PM <br> 16:00hs a 20:00hs</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Miercoles
+                  <span class="ml-auto">8:30hs a 13:00 PM <br> 16:00hs a 20:00hs</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Jueves
+                  <span class="ml-auto">8:30hs a 13:00 PM <br> 16:00hs a 20:00hs</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Viernes
+                  <span class="ml-auto">8:30hs a 13:00 PM <br> 16:00hs a 20:00hs</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Sabado
+                  <span class="ml-auto">Cerrado</span>
+                </li>
+              </ul>
+              <p class="address mb-5">
+                <em>
+                  <strong>AV. Gobernador Freyre 1962 <br> CP: 3000</strong>
+                  <br>
+                  Santa Fe, Santa Fe
+                </em>
+              </p>
+              <iframe class="direccion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.89571132497466!2d-60.72010312576304!3d-31.65102615709994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9af2937e299%3A0x9be0c7f1bbd81d36!2sConsultorio%20Odontol%C3%B3gico%20Integral%20Od.%20Pablo%20O.%20Belletti!5e0!3m2!1ses-419!2sar!4v1610916533189!5m2!1ses-419!2sar" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <p class="mb-0">
+                <small>
+                  <em>Por urgencias</em>
+                </small>
+                <br>
+                (342)569 2890
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="social">
+        <a href='https://www.facebook.com/codontopob' target='_blank' title='Facebook'>
+        <img src='../img/facebook.png'/></a>
+        <a href="https://www.instagram.com/codontopob/" target='_blank' title='Instagram' >
+        <img src="../img/instagram.png" alt="logo_intagram"></a>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../estilos/vendor/jquery/jquery.min.js"></script>
+    <script src="../estilos/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script to highlight the active date in the hours list -->
+    <script>
+      $('.list-hours li').eq(new Date().getDay()).addClass('today');
+    </script>
+
+  </body>
+
+</html>
